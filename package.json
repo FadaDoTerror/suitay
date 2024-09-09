@@ -1,0 +1,20 @@
+{
+  "name": "suitpay",
+  "version": "1.0.0",
+  "main": "suitpay.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node suitpay.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "qrcode": "^1.5.4",
+    "suitpay": "file:"
+  }
+}
